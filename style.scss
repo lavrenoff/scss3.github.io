@@ -687,7 +687,7 @@ body {
 .center_catalog {
     position: relative;
     height: 100px;
-
+    z-index: 10;
     display: flex;
     align-items: baseline;
     // align-items: center;
@@ -858,6 +858,7 @@ summary::-webkit-details-marker {
     }
 
     &__box {
+
         margin-left: -10px;
         padding-left: 10px;
         background: #FFF;
